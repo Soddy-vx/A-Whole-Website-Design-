@@ -277,7 +277,9 @@ ul li a:hover{
 /*section8 end*/
 
 /*Make it responsive*/
-@media screen and (max-width:380px) { 
+
+
+@media screen and (max-width:380px)  { 
 	/*s1*/
 	.s1{
 		background-color:#f8f8f8;
@@ -371,6 +373,25 @@ ul li a:hover{
 	    margin: 0px;
 	    margin-top: 30px;
 	}
+}
+
+@media screen and (min-width:380px) and (max-width: 750px){
+	.s4{
+		background-color: #0fc9c3;
+	    width: 100%;
+	}
+	.num{
+		width: 24%;
+		padding-top: 30px;
+	}
+	.s7{
+		max-height: 900px;
+	}
+	.service-box{
+		width: 50%;
+	}
+}
+
 
 
 
