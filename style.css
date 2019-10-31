@@ -1,0 +1,121 @@
+body{
+	margin:0;
+	padding:0;
+	position: relative; 
+}
+
+/*Section1*/
+
+.s1{
+	background-color: #e2eaed;
+	height: 655px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end; /* 左右均等分布 */
+}
+
+.logo{
+	padding:0; 
+	position: absolute;
+}
+
+ul {
+	display: flex;
+   justify-content:flex-end;/* 上下中央揃え */
+   margin-top: 70px;
+  padding-right: 45px;
+   position: absolute;
+}
+
+ul li a{
+	color: #181a19!important;
+}
+ul li a:hover{
+	color: #0fc9c3!important;
+}
+
+
+.first{
+	margin-top: 175px;
+}
+
+.main-content{
+	margin-top: 105px;
+	width: 100%;
+}
+.main-content h1,p {
+	margin-bottom: 35px;
+}
+
+.main-content p{
+	line-height: 32px;
+}
+
+
+.btn{
+	background-color: #0fc9c3;
+	padding:10px 25px; 
+	font-size: 10px;
+	color:white!important; 
+}
+
+/*Section1 End*/
+
+/*Section2 About section*/
+.s2{
+	height: 420px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.main-content2{
+	width: 50%;
+	margin:105px auto;
+}
+
+.main-content2 h3{
+	margin-bottom: 50px;
+}
+
+.main-content2 p{
+	line-height: 30px;
+}
+
+/*Section2 About section End*/
+
+/*Section3 Progress-bar section*/
+.s3{
+	width: 100%;
+	height: 570px;
+}
+
+.main-content3{
+	padding-bottom: 10px;
+}
+
+.main-content3 label{
+    margin-bottom: 20px;
+}
+.pr{
+	background:#f2f5fa;
+	padding:95px; 
+}
+
+.pr h3{
+	margin-top:20px;
+	margin-bottom:40px; 
+}
+
+.progress-bar{
+	background:#0fc9c3;
+}
+
+.progress{
+	margin-bottom: 40px;
+}
+
+/*Section3 Progress-bar section End*/
+
+
