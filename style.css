@@ -346,6 +346,43 @@ ul li a:hover{
 
 }
 /*section10 end*/
+/*footer*/
+footer{
+	background-color: #141414;
+	color: #fff!important;
+}
+.footer{
+	width: 33%;
+	display: inline-block;
+}
+
+.footer p{
+	color: #fff!important;
+}
+
+.right{
+	width: 33%;
+	height: 200px;
+}
+
+.right ul{
+	list-style:none;
+	display:list-item;
+	width: 310px;
+	margin-top: 8%;
+}
+
+li{
+	float: right;
+	margin: 5px;
+	width: 100px;
+}
+
+.right li a{
+	color: #fff!important;
+}
+
+/*footer end*/
 
 
 /*Make it responsive*/
